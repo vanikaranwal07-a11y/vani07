@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Cards</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: white;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 32px;
+            color: grey;
+            margin-bottom: 30px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            align-items: stretch;
+        }
+
+        .card {
+            background: white;
+            width: 50%;
+            min-height: 480px;
+            border-radius: 4px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+            overflow: hidden;
+            border: 1px solid white;
+        }
+
+        .card-header {
+            background: #6378c7;
+            color: white;
+            padding: 16px 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .card-body {
+            padding: 25px;
+        }
+
+        .intro {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        .sub-heading {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            color: #333;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
+
+        li {
+            margin-bottom: 15px;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #444;
+        }
+
+        .logos {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+            margin: 25px 0;
+        }
+
+        .logo {
+            font-size: 18px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .location {
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        button {
+            padding: 12px 28px;
+            border-radius: 25px;
+            font-size: 14px;
+            cursor: pointer;
+            border: 1px solid #6378c7;
+        }
+
+        .apply {
+            background: white;
+            color: #6378c7;
+        }
+
+        .view {
+            background: #6378c7;
+            color: white;
+        }
+
+        button:hover {
+            opacity: 0.85;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+
+            .cards {
+                flex-direction: column;
+            }
+
+            .card {
+                width: 100%;
+            }
+
+            .title {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="title">Kick-start your Corporate Career with us</h1>
+
+        <div class="cards">
+
+            <!-- First Card -->
+            <div class="card">
+
+                <div class="card-header">
+                    TCS iON NQT - Cognitive
+                </div>
+
+                <div class="card-body">
+
+                    <p class="intro">
+                        Get entry-level jobs in IT and non-IT roles across multiple
+                        industries.
+                    </p>
+
+                    <p class="intro">
+                        Please read carefully and select answers to the questions.
+                    </p>
+
+                    <div class="sub-heading">
+                        I enjoy learning:
+                    </div>
+
+                    <ul>
+                        <li>
+                            New concepts, technologies and their practical
+                            applications.
+                        </li>
+
+                        <li>
+                            The latest trends and developments in technology.
+                        </li>
+
+                        <li>
+                            I have practical knowledge and experience before
+                            starting a job.
+                        </li>
+
+                        <li>
+                            I am passionate about improving my skills.
+                        </li>
+                    </ul>
+
+                    <div class="logos">
+                        <div class="logo">TCS iON</div>
+                        <div class="logo">NQT</div>
+                    </div>
+
+                    <div class="location">
+                        Remote / Online
+                    </div>
+
+                    <div class="buttons">
+                        <button class="apply">Apply Now</button>
+                        <button class="view">View More</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Second Card -->
+            <div class="card">
+
+                <div class="card-header">
+                    TCS iON NQT - IT
+                </div>
+
+                <div class="card-body">
+
+                    <p class="intro">
+                        Focused on IT job opportunities and skills required
+                        to build a career in technology.
+                    </p>
+
+                    <p class="intro">
+                        Please read the information carefully before applying.
+                    </p>
+
+                    <div class="sub-heading">
+                        I enjoy learning:
+                    </div>
+
+                    <ul>
+                        <li>
+                            Software development and emerging technologies.
+                        </li>
+
+                        <li>
+                            New IT tools and technical concepts.
+                        </li>
+
+                        <li>
+                            I have practical knowledge and experience.
+                        </li>
+
+                        <li>
+                            I am passionate about developing my technical skills.
+                        </li>
+                    </ul>
+
+                    <div class="logos">
+                        <div class="logo">TCS iON</div>
+                        <div class="logo">NQT</div>
+                    </div>
+
+                    <div class="location">
+                        Remote / Online
+                    </div>
+
+                    <div class="buttons">
+                        <button class="apply">Apply Now</button>
+                        <button class="view">View More</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: vani ;
+    src: url();
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:vani;
+   
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+    
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+}
+.box>div{
+    width: 100%;
+    height: 20%;
+    background-color: brown;
+    border: 1px solid black;    
+}
+h1+P{
+    color: brown;
+}
+h1~p,h1{
+
+    font-size: 40px;
+    color: brown;
+}
+.eg1:has(a){
+    color: blueviolet;
+
+}
