@@ -1,0 +1,100 @@
+```css
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body animation */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+    min-height: 100vh;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Heading animation */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    animation: slideDown 1s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Button animation */
+button {
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 20px;
+    border: none;
+    border-radius: 25px;
+    background: #00c6ff;
+    color: #141e30;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                background 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-5px) scale(1.05);
+    background: #7df9ff;
+    box-shadow: 0 8px 25px rgba(0, 198, 255, 0.4);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Card hover animation */
+.card {
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 320px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    text-align: center;
+    transition: transform 0.4s ease,
+                box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Floating animation */
+.float {
+    animation: floating 3s ease-in-out infinite;
