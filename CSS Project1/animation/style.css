@@ -15,7 +15,7 @@ body{
 .box{
     width: 300px;
     height: 300px;
-    background-color: indianred;
+    background-color: rgba(205, 92, 92, 0.841);
     animation: sliding 1s ease 4 alternate-reverse forwards;
 }
 

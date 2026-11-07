@@ -70,7 +70,7 @@ button {
 button:hover {
     transform: translateY(-5px) scale(1.05);
     background: #7df9ff;
-    box-shadow: 0 8px 25px rgba(0, 198, 255, 0.4);
+    box-shadow: 0 8px 25px rgba(0, 200, 255, 0.459);
 }
 
 button:active {
