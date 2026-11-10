@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.game {
+    background-color: white;
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+.buttons button {
+    padding: 12px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+h2 {
+    color: green;
+}
