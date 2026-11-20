@@ -32,9 +32,9 @@
 
 <body>
 
-    <h2>Welcome to My Website!</h2>
+    <h1>Welcome to My Website!</h1>
 
-    <p>This is my first HTML and CSS webpage.</p>
+    <p>This Is My First HTML and CSS Webpage.</p>
 
     <button>Click Me</button>
 
