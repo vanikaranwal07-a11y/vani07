@@ -12,7 +12,7 @@
         }
 
         h1 {
-            color: darkblue;
+            color: rgb(51, 0, 139);
         }
 
         p {
